@@ -8,7 +8,7 @@ let elementToPaint;
 async function start() {
   let response = await fetch("items/teddybear-01.svg");
   let mySvgData = await response.text();
-  document.querySelector("section").innerHTML = mySvgData;
+  document.querySelector("#product-preview").innerHTML = mySvgData;
   addUserInteraction();
 }
 
