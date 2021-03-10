@@ -18,7 +18,10 @@ path {
 h1 {
   font-family: "Montserrat";
   color: rgb(163, 117, 57);
-  text-shadow: 2px 2px #000000;
+}
+
+#color_btns {
+  width: 70%;
 }
 
 p {
@@ -105,6 +108,10 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  color: rgb(163, 117, 57);
+  font-family: "Moonflower";
+  font-size: 25px;
+  font-weight: 600;
 }
 
 #options .option {
@@ -136,6 +143,10 @@ p {
 
 #selected {
   grid-area: features;
+  color: rgb(163, 117, 57);
+  font-family: "Moonflower";
+  font-size: 25px;
+  font-weight: 600;
 }
 
 #selected ul {
