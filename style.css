@@ -48,13 +48,13 @@ p {
   transition: opacity ease-in 0.5s;
 }
 
-#product-preview img {
+/* #product-preview img {
   position: absolute;
-  width: 100%;
+  width: 30%;
   height: auto;
   top: 0;
   left: 0;
-}
+} */
 
 #product-preview .hide {
   opacity: 0;
@@ -62,6 +62,39 @@ p {
 
 #product-preview img.basic {
   position: relative;
+}
+
+/* IMAGES ON THE BEAR */
+#sunglasses {
+  position: absolute;
+  width: 18%;
+  height: auto;
+  top: 7.5vw;
+  left: 15.5vw;
+}
+
+#bow {
+  position: absolute;
+  width: 15%;
+  height: auto;
+  top: 3vw;
+  left: 16.2vw;
+}
+
+#heart {
+  position: absolute;
+  width: 18%;
+  height: auto;
+  top: 15vw;
+  left: 15.5vw;
+}
+
+#mustache {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  top: 10.5vw;
+  left: 17.5vw;
 }
 
 #options {
