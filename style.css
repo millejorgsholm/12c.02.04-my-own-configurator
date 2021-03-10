@@ -1,0 +1,33 @@
+svg {
+  width: 60%;
+}
+
+#shadow_Image {
+  pointer-events: none;
+}
+
+.g_to_interact_with {
+  fill: transparent;
+  cursor: pointer;
+}
+
+path {
+  stroke-width: 2;
+}
+
+h1 {
+  font-family: "Montserrat";
+  color: rgb(163, 117, 57);
+  text-shadow: 2px 2px #000000;
+}
+
+p {
+  font-family: "Moonflower";
+  font-size: 25px;
+  color: rgb(163, 117, 57);
+  font-weight: 600;
+}
+
+.color_btn {
+  cursor: pointer;
+}
