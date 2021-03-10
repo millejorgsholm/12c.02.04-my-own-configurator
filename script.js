@@ -16,7 +16,7 @@ let elementToPaint;
 async function start() {
   let response = await fetch("items/teddybear-01.svg");
   let mySvgData = await response.text();
-  document.querySelector("#product-preview").innerHTML = mySvgData;
+  document.querySelector("#teddybear_basic").innerHTML = mySvgData;
   // register toggle-clicks
   document
     .querySelectorAll(".option")
