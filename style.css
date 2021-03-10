@@ -1,5 +1,5 @@
 svg {
-  width: 60%;
+  width: 80%;
 }
 
 #shadow_Image {
@@ -115,4 +115,41 @@ p {
 
 #selected ul li img {
   width: 3em;
+}
+
+/* Animation classes */
+
+.animate-feature-in {
+  /* TODO: Create animation for adding a feature */
+  animation-name: move_in;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+}
+
+@keyframes move_in {
+  0% {
+    transform: translate(var(--diffx), var(--diffy)) scale(0);
+  }
+
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.animate-feature-out {
+  animation-name: move_out;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  /* TODO: Create animation for removing a feature */
+}
+
+@keyframes move_out {
+  0% {
+    transform: translate(var(--diffx), var(--diffy)) scale(0);
+  }
+
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
 }
